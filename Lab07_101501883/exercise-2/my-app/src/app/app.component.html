@@ -1,1 +1,13 @@
-<h1>Welcome to {{ title }}</h1>
+<h1>{{ title }}</h1>
+<app-heros></app-heros>
+
+<section class="directive-demo">
+  <h2>Input format (custom directive)</h2>
+  <p>Leave the field to convert text to uppercase on blur.</p>
+  <label for="demo-input">Try it: </label>
+  <input
+    id="demo-input"
+    type="text"
+    input-format
+    placeholder="type lowercase, then tab out" />
+</section>

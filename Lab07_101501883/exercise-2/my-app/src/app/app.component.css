@@ -1,0 +1,16 @@
+h1 {
+  margin-bottom: 0;
+  color: #369;
+}
+
+.directive-demo {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.directive-demo input {
+  margin-left: 0.25rem;
+  padding: 0.35rem 0.5rem;
+  min-width: 16rem;
+}
